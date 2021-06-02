@@ -160,24 +160,23 @@ p {
     font-size: 1.9rem;
   }
   .hero-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
     max-width: 850px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .hero-name {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 2.3rem;
   }
   .hero-education {
-    font-size: 1.4rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
   }
   .hero-description {
     font-size: 1rem;
     max-width: 850px;
   }
 }
+
 .skills {
   background: var(--almost-black);
   text-align: center;
