@@ -6,7 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 :root {
-  --almost-black: #101010;
+  --almost-black: #111111;
   --dark-gray: #202020;
   --almost-white: #e5e5e5;
   --pink: #f387f5;
@@ -34,7 +34,7 @@ img {
   width: 100%;
 }
 p {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 .container {
   max-width: 1300px;
@@ -80,7 +80,7 @@ p {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--light-gray);
+  color: var(--light-blue);
 }
 @media screen and (max-width: 768px) {
   .navigation {
@@ -179,7 +179,7 @@ p {
   }
 }
 .skills {
-  background: black;
+  background: var(--almost-black);
   text-align: center;
   padding-bottom: 2rem;
 }
@@ -216,7 +216,7 @@ p {
     grid-template-rows: repeat(8, 50px);
   }
   .skills-grid > li {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
 .projects-container {
@@ -253,7 +253,8 @@ p {
   padding: 0.5rem 1rem;
   font-weight: bold;
   margin-top: 1rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 .project-description {
   background: black;
@@ -316,6 +317,11 @@ p {
     margin-left: 0rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .project-description {
+    font-size: 1rem;
+  }
+}
 .ecommerce li,
 .weather-app li {
   list-style: initial;
@@ -358,7 +364,7 @@ p {
 }
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   text-align: center;
 }
 .contact-way {
@@ -366,6 +372,19 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.contact-way p {
+  line-height: initial;
+}
+.contact-way a {
+  font-size: inherit;
+  transition: var(--transition);
+}
+.contact-way a:hover,
+.contact-way a:focus {
+  color: var(--light-blue);
 }
 .icon {
   font-size: 3rem;
