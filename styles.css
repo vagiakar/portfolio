@@ -18,6 +18,7 @@
   --transition: 0.5s;
   --bright-orange: #fd8900;
   --darker-blue: rgb(124, 144, 255);
+  --green:rgb(81, 196, 81);
 }
 body {
   background: var(--dark-gray);
@@ -331,6 +332,9 @@ p {
 }
 .weather-app {
   --project-color: var(--purple);
+}
+.essential-carousel{
+  --project-color:var(--green);
 }
 .batleship-game {
   --project-color: var(--pink);
