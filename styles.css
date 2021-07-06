@@ -185,7 +185,7 @@ p {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 100px);
+  grid-template-rows: repeat(3, 100px);
   margin: 0 1rem;
   align-items: center;
   justify-items: center;
