@@ -18,7 +18,7 @@
   --transition: 0.5s;
   --bright-orange: #fd8900;
   --darker-blue: rgb(124, 144, 255);
-  --green:rgb(81, 196, 81);
+  --green: rgb(81, 196, 81);
 }
 body {
   background: var(--dark-gray);
@@ -186,7 +186,7 @@ p {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 100px);
+  grid-auto-rows: 100px;
   margin: 0 1rem;
   align-items: center;
   justify-items: center;
@@ -199,7 +199,7 @@ p {
 @media screen and (max-width: 870px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 100px);
+    grid-auto-rows: 100px;
   }
   .skills-grid > li {
     font-size: 1.7rem;
@@ -213,7 +213,7 @@ p {
   }
   .skills-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 50px);
+    grid-auto-rows: 50px;
   }
   .skills-grid > li {
     font-size: 1.4rem;
@@ -333,8 +333,8 @@ p {
 .weather-app {
   --project-color: var(--purple);
 }
-.essential-carousel{
-  --project-color:var(--green);
+.essential-carousel {
+  --project-color: var(--green);
 }
 .batleship-game {
   --project-color: var(--pink);
@@ -368,7 +368,7 @@ p {
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:2rem;
+  gap: 2rem;
   text-align: center;
 }
 .contact-way {
@@ -384,7 +384,7 @@ p {
 .contact-way a {
   font-size: inherit;
   transition: var(--transition);
-  word-break:break-all;
+  word-break: break-all;
 }
 .contact-way a:hover,
 .contact-way a:focus {
