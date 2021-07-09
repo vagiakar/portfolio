@@ -18,7 +18,7 @@
   --transition: 0.5s;
   --bright-orange: #fd8900;
   --darker-blue: rgb(124, 144, 255);
-  --green: rgb(81, 196, 81);
+  --yellow: rgb(204, 223, 99);
 }
 body {
   background: var(--dark-gray);
@@ -334,7 +334,7 @@ p {
   --project-color: var(--purple);
 }
 .essential-carousel {
-  --project-color: var(--green);
+  --project-color: var(--yellow);
 }
 .batleship-game {
   --project-color: var(--pink);
