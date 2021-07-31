@@ -330,11 +330,8 @@ p {
 .ecommerce {
   --project-color: var(--light-blue);
 }
-.weather-app {
-  --project-color: var(--purple);
-}
 .essential-carousel {
-  --project-color: var(--yellow);
+  --project-color: var(--purple);
 }
 .batleship-game {
   --project-color: var(--pink);
